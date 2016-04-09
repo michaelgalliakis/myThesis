@@ -1,0 +1,726 @@
+html { 
+    background: url(myImages/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body{
+    padding:0;
+    margin:0;
+    color:#000;
+    //background-image:url(images/main_bg.jpg);
+    //background-image:url(images/background.png);
+    //background-image:url(myImages/Gianadoume2.jpg);
+    //background-image:url(myImages/background.png);
+    background-repeat:repeat;
+    background-color:brown;
+    
+    //background-origin: border-box ;
+    //background-attachment: scroll;
+    //background-image: url(myImages/noUse.png);
+    
+    background-position:  top;
+    
+}
+div, h1, h2, h3, h4, p, form, label, input, textarea, img, span{
+    margin:0; padding:0;
+}
+#container {
+    width:960px;
+    margin:0 auto;
+}
+#header{
+    width:960px;
+    height:150px;
+    float:left;
+}
+#logo {
+    width:362px;
+    height:58px;
+    background-image:url(images/logoThesis.png);
+    float:left;
+    margin-top:35px;
+    text-indent:-100px;
+}
+#contact {
+    width:312px;
+    height:50px;
+    float:right;
+    margin-top:35px;
+    background:url(myImages/noUser.png) right no-repeat;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:11px;
+    color:#000;
+    text-align:left;
+    padding:8px 1px 0 0;
+}
+#contactUser {
+    width:312px;
+    height:50px;
+    float:right;
+    margin-top:35px;
+    background:url(myImages/user.png) right no-repeat;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:11px;
+    color:#000;
+    text-align:right;
+    padding:8px 25px 0 0;
+}
+#contactVIP {
+    width:312px;
+    height:50px;
+    float:right;
+    margin-top:35px;
+    background:url(myImages/vip.png) right no-repeat;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:11px;
+    color:#000;
+    text-align:right;
+    padding:8px 25px 0 0;
+}
+#contactSuper {
+    width:312px;
+    height:50px;
+    float:right;
+    margin-top:35px;
+    background:url(myImages/system.png) right no-repeat;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:11px;
+    color:#000;
+    text-align:right;
+    padding:8px 25px 0 0;
+}
+#contactUser .btext{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:36px;
+    font-weight:bold;
+    text-align: center;
+    font-style: oblique;
+    font-variant: small-caps ;
+    color:whitesmoke;
+}
+#contactVIP .btext{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:36px;
+    font-weight:bold;   
+    text-align:center;
+    font-style: oblique;
+    font-variant: small-caps ;
+    color:gold;
+}
+#contactSuper .btext{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:36px;
+    font-weight:bold;
+    text-align:center;
+    font-style: oblique;
+    font-variant: small-caps ;
+    color:red;
+}
+
+#smashnav{
+    width:960px;
+    height:35px;
+    background: url(images/bluewax_bottom3.png) repeat-x bottom left;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:11px;
+    font-weight:bold;
+    float:left;
+    margin-top:26px
+}
+
+#smashnav ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    float:left;
+}
+
+#smashnav ul li{
+    float:left;
+    margin:0 1px;
+}
+
+#smashnav ul li a{
+    display:block;
+    float:left;
+    color:#ffe3fc;
+    background-color: #a39dfd;
+    text-decoration:none;
+    padding:0 0 0 12px;
+    height:35px;
+    line-height:290%;
+}
+#smashnav ul li label span{
+    display:block;
+    float:left;
+    color:#ffe3fc;
+    background-color: gray;
+    text-decoration:none;
+    padding:0 10px 0 10px;
+    height:35px;
+    line-height:290%;
+    
+}
+
+
+#smashnav ul li a span{
+    padding:0 12px 0 0;
+}
+
+#smashnav ul li a:hover,.corner #smashnav ul li a.current{
+    
+    background: url(images/bluewax_navtopleft3.png) no-repeat top left;
+    background-color: #635fa9;
+    color:#ffeeff;
+}
+
+#smashnav ul li a:hover span,.corner #smashnav ul li a.current span{
+    display:block;
+    width:auto;
+    background:#1D6893 url(images/bluewax_navtopright3.png) no-repeat top right;
+    height:35px;
+    background-color: #635fa9;
+    color:#ffeeff;
+}
+#middle {
+    width:960px;
+    height:100% ;//440px;    
+    min-height: 450px ;
+    float:left;
+    margin-top: 0px ;
+    text-align: center ;   
+    //background-image:url(myImages/background3.png);
+    background-color:   rgba(163,157,253,0.8);// #a39dfd  ;
+    //background-color:   rgba(255,255,255,0.95);// #a39dfd  ;
+    
+    // opacity: 0.9;
+    //  filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+#middle_Max1 {
+    width:960px;
+    height:740px;
+    float:left;
+}
+#middle_inside {
+    width:950px;
+    height:340px;
+    float:left;
+    background-color:#a39dfd;
+    
+    margin:40px 0 0 0;
+    padding:10px 0 10px 10px;
+} 
+#slide {
+    width:630px;
+    height:340px;
+    float:left;
+    background:url(images/systima.png);
+    background-size:contain
+}
+#slideText {
+    width:630px;
+    height:340px;
+    float:left;
+    text-align: left ;
+    //background:url(images/mySlide2.png);
+    background-size:contain
+}
+#quick_note {
+    width:280px;
+    height:330px;
+    float:left;
+    background:url(images/quick.png) repeat-x;
+    margin-left:10px;
+    padding:10px 0 0 20px;
+}
+#quick_note h2{
+    font-family:Georgia, "Times New Roman", Times, serif;
+    margin-bottom:12px;
+}
+input, textarea {
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;
+    color:black;
+}
+
+label {
+    //   color:#ffeeff;
+    //  padding-left:2px;
+    // line-height:25px;
+    // font-family:Verdana, Geneva, sans-serif;
+    //  font-size:16px;
+    //  font-weight:bold;
+}
+.textinput{
+    width:255px;
+    height:25px;
+    background:url(images/input.png) no-repeat left top;
+    border:none;
+    padding:5px 5px 5px 5px;
+}
+
+.textarea {
+    width:255px;
+    height:70px;
+    background:url(images/textarea.png) no-repeat left top;
+    border:none;
+    padding:5px 5px 5px 5px;
+}
+
+.buttonSubmit {
+    width:80px;
+    height:35px;
+    color:#FFF;
+    font-weight:bold;
+    background:url(images/button.png) no-repeat left top;
+    cursor:pointer;
+    border:none;
+}
+#boxes {
+    width:960px;
+    height:0px;
+    min-height: 0px ;
+    float:left;
+    padding-top:20px;
+}
+#box_left{
+    width:258px;
+    height:133px;
+    border:1px solid #d8d8d8;
+    background:url(images/box_back.jpg) repeat-x;
+    float:left;
+    padding:10px;
+}
+#box_middle{
+    width:258px;
+    height:133px;
+    border:1px solid #d8d8d8;
+    background:url(images/box_back.jpg) repeat-x;
+    float:left;
+    margin-left:30px;
+    padding:10px;
+}
+
+#box_right{
+    width:258px;
+    height:133px;
+    border:1px solid #d8d8d8;
+    background:url(images/box_back.jpg) repeat-x;
+    float:left;
+    margin-left:30px;
+    padding:10px;
+}
+.text{
+    width:150px;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:9px;
+    margin-top:5px;
+    color:#767676;
+    float:left;
+}
+
+.title{
+    color:#000;
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:24px;
+}
+
+.color{
+    color:#b47825;
+}
+
+.image{
+    float:right;
+    margin-top:5px;
+}
+
+.more a{
+    float:left;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:11px;
+    margin-top:2px;
+    color:#000;
+}
+
+.more a:hover{
+    text-decoration:none;
+}
+#footer_wrap {
+    width:100%;
+    height:100px;   
+    //background:url(images/footer.jpg) repeat-x;
+    background-color: #1d83ff ;
+    
+    // background-color: #ffffff;    
+    // opacity: 0.6;
+    // filter: alpha(opacity=60); /* For IE8 and earlier */
+    background-color: rgba(29,131,255,0.8);
+    float:left;
+}
+#footer {
+    width:960px;
+    height:80px;
+    margin:0 auto;
+    padding:5px 0 0 0;
+    font-size:10px;
+    
+}
+#footer_left {
+    width:609px;
+    height:80px;
+    float:left;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:11px;
+    //margin-top:0px;
+    line-height:15px;
+    
+}
+#footer_right {
+    width:350px;
+    height:80px;
+    float:right;
+    
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:11px;    
+    line-height:15px;    
+    background:url(images/logoPMGv2F24.png) right bottom no-repeat;
+    
+    color:#000;
+    text-align:left;
+    padding:2px 1px 0 0;
+    
+}
+#footer ul{ width:100%; margin:0;padding:0;list-style-type:none;float:left;}
+#footer ul li{float:left;margin:0 0px;}
+#footer ul li a{display:block;float:left;color:#fff;text-decoration:none;padding:0 12px 0 0;line-height:25px;}
+#footer ul li a:hover, #footer ul li a.current{color:#fff; text-decoration:underline;}
+p,
+table, caption, td, tr, th {
+    margin:0;
+    padding:0;
+    font-weight:normal;
+}
+table {
+    border-collapse:collapse;
+    margin-bottom:15px;
+    width:90%;
+}
+
+caption {
+    text-align:left;
+    font-size:15px;
+    padding-bottom:10px;
+}
+
+table td,
+table th {
+    padding:5px;
+    border:1px solid #000;
+    border-width:1px 1px 1px 1px;
+}
+
+thead th {
+    background:#a39dfd;
+}
+
+thead th[colspan],
+thead th[rowspan] {
+    background:#635fa9;/////
+}
+
+tbody th,
+tfoot th {
+    text-align:left;
+    background:#a39dfd;
+}
+
+tbody td,
+tfoot td {
+    text-align:center;
+    background:#ffeeff; ////
+}
+
+tfoot th {
+    background:#21fdfd;
+}
+
+tfoot td {
+    background:#21fdfd;
+    font-weight:bold;
+}
+
+tbody tr.odd td { 
+    background:#bcd9e1;
+}
+/*.editDevice {
+    
+    background-image: url(myImages/editDevice.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-position: center center;
+}*/
+.deleteAccount
+{        
+    width: 100px;
+    height: 36px;
+    background-image: url(myImages/RemoveUser.png);
+    background-repeat: no-repeat ;
+    background-position:  center center;
+    background-size: 32px;
+    font-size: 16px;
+    
+}
+.createAccount
+{        
+    width: 100px;
+    height: 36px;
+    background-image: url(myImages/createUser.png);
+    background-repeat: no-repeat ;
+    background-position:  center center;
+    background-size: 32px;
+    font-size: 16px;
+    
+}
+.changeAccount
+{  
+    width: 100px;
+    height: 36px;
+    background-image: url(myImages/saveChanges.png);
+    background-repeat: no-repeat ;
+    background-position:  center center;
+    background-size: 32px;
+    font-size: 16px;
+}
+.loginNow
+{
+    width: 160px;
+    height: 36px;
+    background-image: url(myImages/loginNow.png);
+    background-repeat: no-repeat ;
+    background-position:  center center;
+    background-size: 90px;
+    font-size: 16px;
+    
+}
+.signupNow
+{
+    width: 36px;
+    height: 36px;
+    background-image: url(myImages/signupNow.png);
+    background-repeat: no-repeat ;
+    background-position:  center center;
+    background-size: 36px;
+    font-size: 16px;
+    
+}
+.confirm
+{
+    width: 36px;
+    height: 36px;
+    background-image: url(myImages/confirm.png);
+    background-repeat: no-repeat ;
+    background-position:  center center;
+    background-size: 36px;
+    font-size: 16px;    
+}
+.deleteRequest1
+{
+    width: 36px;
+    height: 36px;
+    background-image: url(myImages/deleteRequest1.png);
+    background-repeat: no-repeat ;
+    background-position:  center center;
+    background-size: 36px;
+    font-size: 16px;
+    
+}
+.deleteRequest2
+{
+    width: 36px;
+    height: 36px;
+    background-image: url(myImages/deleteRequest2.png);
+    background-repeat: no-repeat ;
+    background-position:  center center;
+    background-size: 36px;
+    font-size: 16px;
+    
+}
+.request
+{
+    width: 36px;
+    height: 36px;
+    background-image: url(myImages/request.png);
+    background-repeat: no-repeat ;
+    background-position:  center center;
+    background-size: 36px;
+    font-size: 16px;
+    
+}
+.search
+{
+    width: 36px;
+    height: 36px;
+    background-image: url(myImages/search.png);
+    background-repeat: no-repeat ;
+    background-position:  center center;
+    background-size: 36px;
+    font-size: 16px;
+    
+}
+.changeAccess
+{
+    width: 36px;
+    height: 36px;
+    background-image: url(myImages/changeAccess.png);
+    background-repeat: no-repeat ;
+    background-position:  center center;
+    background-size: 36px;
+    font-size: 16px;
+    
+}
+.invite
+{
+    width: 36px;
+    height: 36px;
+    background-image: url(myImages/invite.png);
+    background-repeat: no-repeat ;
+    background-position:  center center;
+    background-size: 36px;
+    font-size: 16px;
+    
+}
+.createDevice
+{
+    width: 100px;
+    height: 36px;
+    background-image: url(myImages/create.png);
+    background-repeat: no-repeat ;
+    background-position:  center center;
+    background-size: 36px;
+    font-size: 16px;
+    
+}
+.changeDevice
+{
+    width: 100px;
+    height: 36px;
+    background-image: url(myImages/changeDevice.png);
+    background-repeat: no-repeat ;
+    background-position:  center center;
+    background-size: 36px;
+    font-size: 16px;
+    
+}
+.removeDevice
+{
+    width: 100px;
+    height: 36px;
+    background-image: url(myImages/removeDevice.png);
+    background-repeat: no-repeat ;
+    background-position:  center center;
+    background-size: 36px;
+    font-size: 16px;
+    
+}
+.noUsed
+{
+    width: 36px;
+    height: 36px;
+    background-image: url(myImages/noUse.png);
+    background-repeat: no-repeat ;
+    background-position:  center center;
+    background-size: 36px;
+    font-size: 16px;
+    
+}
+.newDeviceButton
+{
+    width: 36px;
+    height: 36px;
+    background-image: url(myImages/newDevice.png);
+    background-repeat: no-repeat ;
+    background-position:  center center;
+    background-size: 32px;
+    font-size: 16px;
+    
+}
+/*
+.changeAccount:hover{ 
+  background-position:  0px -2px;
+}
+
+.changeAccount:active{
+  background-position:  0px -4px;
+}
+*/
+
+#yellow {
+    background: yellow;
+    position: absolute;
+    width: 150px;
+    top: 0;
+    left: 0;
+    bottom: 155px;
+}
+
+#blue {
+    background: rgb(98, 196, 255);
+    position: absolute;
+    top: 0;
+    right: 155px;
+    left: 155px;
+    bottom: 155px;
+}
+
+#green {
+    background: green;
+    position: absolute;
+    width: 150px;
+    top: 0;
+    right: 0;
+    bottom: 155px;
+}
+
+#red {
+    background: brown;
+    position: absolute;
+    height: 150px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#Subject{
+    font-size:12px;
+}
+
+/*
+* * * * * * * * * * * * * * * * * * * * * * *
+* + + + + + + + + + + + + + + + + + + + + + *
+* +- - - - - - - - - - - - - - - - - - - -+ *
+* +| P P P P    M M     M M    G G G G   |+ *
+* +| P      P   M  M   M  M   G       G  |+ *
+* +| P P P p    M   M M   M  G           |+ *
+* +| P          M    M    M  G    G G G  |+ *
+* +| P          M         M   G       G  |+ *
+* +| P        ® M         M ®  G G G G   |+ *
+* +- - - - - - - - - - - - - - - - - - - -+ *
+* +           .----.   @   @             |+ * 
+* +          / .-"-.`.  \v/              |+ * 
+* +          | | '\ \ \_/ )              |+ * 
+* +        ,-\ `-.' /.'  /               |+ * 
+* +       '---`----'----'                |+ *         
+* +- - - - - - - - - - - - - - - - - - - -+ *
+* + + + + + + + + + + + + + + + + + + + + + *
+* +- - - - - - - - - - - - - - - - - - - -+ *
+* +|    Thesis Michael Galliakis 2016    |+ *
+* +| Program m_g ; -) cs081001@teiath.gr |+ *
+* +|     TEI Athens - IT department.     |+ *
+* +|       michaelgalliakis@yahoo.gr     |+ *
+* +| https://github.com/michaelgalliakis |+ *
+* +|           (myThesis.git)            |+ *
+* +- - - - - - - - - - - - - - - - - - - -+ *
+* + + + + + + + + + + + + + + + + + + + + + *
+* * * * * * * * * * * * * * * * * * * * * * *
+*/
